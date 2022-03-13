@@ -57,6 +57,11 @@ img{
     background-color: var(--section-background);
 }
 
+/* .center-items{
+    align-items: center;
+    justify-content: center;
+} */
+
 .offer{
     background-color: yellow;
     padding: 6em;
