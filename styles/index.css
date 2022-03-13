@@ -104,3 +104,15 @@ img{
    padding: 0.8rem;
    cursor: pointer;
 }
+
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 6rem;
+}
+
+.green{
+    color: green;
+}
