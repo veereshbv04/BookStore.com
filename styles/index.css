@@ -116,3 +116,17 @@ img{
 .green{
     color: green;
 }
+
+.strike{
+    text-decoration: line-through;
+}
+
+.quantity{
+    display: flex;
+    font-weight: bold;
+}
+
+.quantity input{
+    width: 3rem;
+    
+}

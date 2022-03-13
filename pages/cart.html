@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Cart</title>
 
     <link rel="stylesheet" href="https://veeuiforbookstorecss.netlify.app/components/main.css">
     <link rel="stylesheet" href="/styles/index.css">
@@ -32,17 +32,31 @@
          </div>
     </nav>   
 
-    <div class="center-div">
-        <form class="form">
-            <h2 class="subheading">Login In</h2>
-            <input class="input" placeholder="Enter Email Id" type="email">
-            <input class="input" placeholder="Enter Password" type="password">
-            <small class="error-message green"><a>Forget password</a></small>
-            <button class="btn btn-primary"><a href="/pages/home.html">Sign In</a></button>
-        </form>
-    </div>		
-	
+   <h2 class="subheading">cart page</h2>
 
+   <section class="container">
+        <div class="card card-horizontal">
+            <img class="img-horizontal" src="/assets/doepicshit.jpg" alt="sample image" >
+            <div class="card-content">
+                
+                <h2 class="card-title">Do Epic Shit(paperback) by Ankur warikko</h2>
+                <small>Sapna Publication</small>
+                <h3 class="price">₹299 <small class="offer-saving strike">₹500</small></h3>
+                <span class="offer-saving">40% Offer</span>
+                
+                <div class="quantity">
+                    <span class="plus">+</span>
+                    <input type="number" value="1">
+                    <span class="minus">-</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offer">
+            <h2 class="subheading">Wide Range of Self Help Books upto 90% Off </h2>
+            <button class="btn btn-primary">Select Now</button>
+        </div>
+   </section>
 
 </body>
 </html>
