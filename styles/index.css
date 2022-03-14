@@ -232,3 +232,13 @@ input[type="reset"]{
     background-color: var(--section-background);
     border: none;
 }
+
+.heart{
+        position: absolute;
+        top:0;
+        color: var(--primary-color);
+        padding: 5px;
+        border-radius: 50%;
+        background-color: var(--background-color);
+    
+}
