@@ -225,3 +225,10 @@ img{
     margin-right: 1rem;
 }
 
+
+input[type="reset"]{
+    color: var(--text-color);
+    border-radius: 4px;
+    background-color: var(--section-background);
+    border: none;
+}
