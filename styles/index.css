@@ -55,15 +55,18 @@ img{
     gap: 2rem;
     padding: 2rem;
     background-color: var(--section-background);
+   
 }
-
+.wrap{
+    flex-wrap: wrap;
+}
 /* .center-items{
     align-items: center;
     justify-content: center;
 } */
 
 .offer{
-    background-color: yellow;
+    background-color: var(--yellow-color);
     padding: 6em;
     display: flex;
     flex-flow: column;
@@ -81,7 +84,7 @@ img{
 }
 
 .offer-saving{
-    color: green;
+    color: var(--green-color);
 }
 
 .price{
@@ -119,8 +122,9 @@ img{
 }
 
 .green{
-    color: green;
+    color: var(--green-color);
 }
+
 
 .strike{
     text-decoration: line-through;
@@ -155,9 +159,94 @@ img{
 
 .highlight{
     font-weight: bold;
-    color: green;
+    color: var(--green-color);
 }
 
 .text-center{
     text-align: center;
+}
+
+
+/* grid for product list page */
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.grid-2-8{
+    grid-template-rows:auto;
+    grid-template-columns: 20% auto;
+    gap:2rem;
+}
+
+@media(max-width:550px){
+    .grid-2-8{
+        grid-template-columns: auto;
+        grid-template-rows: auto ;
+        gap: 2rem;
+    }
+}
+
+.product-filter{
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 98vh;
+    padding: 1rem;
+    gap: 2rem;
+
+}
+.product-display{
+    background-color: var(--section-background);
+    height: auto;
+    overflow-y: scroll;
+    display:flex ;
+    gap: 2rem;
+    justify-content:space-around;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider{
+    width: 100%;
+}
+.scale-values{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category input{
+    margin-right: 1rem;
+}
+
+
+input[type="reset"]{
+    color: var(--text-color);
+    border-radius: 4px;
+    background-color: var(--section-background);
+    border: none;
+}
+
+.heart{
+        position: absolute;
+        top:0;
+        color: var(--primary-color);
+        padding: 5px;
+        border-radius: 50%;
+        background-color: var(--background-color);
+    
 }
